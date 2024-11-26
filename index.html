@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex flex-col items-center justify-start gap-8 pb-8">
+       
+        <!-- title -->
+         <div class="w-full max-w-4xl">
+            <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-6 shadow-md">
+                <h1 class="text-4xl font-bold text-white mb-2">
+                    Game Demo
+                </h1>
+                <p class="text-blue-50 text-lg">
+                    一个有趣的音乐创作游戏，让你体验成为音乐制作人的乐趣。通过组合不同的音效，创造属于你的独特节奏。
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-row gap-2">
+            <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">中文</span>
+            <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">意大利</span>
+            <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">英语</span>
+            <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">法语</span>
+            <span class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">德语</span>
+            <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">葡萄牙</span>
+            <span class="inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">西班牙</span>
+            <span class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">日本</span>
+        </div>
+        <!-- iframe -->
+        <div class="w-full max-w-4xl mx-auto">
+            <iframe src="https://incredibox-game.io/game/incredibox/" class="w-full h-[600px]"></iframe>    
+        </div>
+        <!-- 推荐游戏 -->
+        <div class="w-full max-w-4xl">
+            <div class="bg-gradient-to-r from-blue-300 to-blue-400 py-3 px-6 shadow-md mb-6">
+                <h2 class="text-2xl font-bold text-white">推荐游戏</h2>
+            </div>
+            <div class="grid grid-cols-4 gap-6">
+                <!-- 游戏卡片 1 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="音乐节奏大师"
+                        src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">音乐节奏大师</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        体验音乐创作的无限可能，让你的想象力自由飞翔
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 2 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="节拍制作人"
+                        src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">节拍制作人</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        创造你的专属节奏，打造独特的音乐风格
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 3 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="音乐盒子"
+                        src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">音乐盒子</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        探索音乐的奥秘，发现声音的魅力
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 4 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="音乐大师"
+                        src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">音乐大师</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        成为音乐创作大师，展现你的才华
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 5 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="节奏世界"
+                        src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">节奏世界</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        进入充满节奏的世界，感受音乐的律动
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 6 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="音乐创想"
+                        src="https://images.unsplash.com/photo-1513829596324-4bb2800c5efb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">音乐创想</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        释放你的音乐创意，创造独特的声音
+                    </p>
+                </a>
+
+                <!-- 游戏卡片 7 -->
+                <a href="#" class="block group">
+                    <img
+                        alt="音乐梦工厂"
+                        src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        class="h-40 w-full object-cover group-hover:opacity-75 transition"
+                    />
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">音乐梦工厂</h3>
+                    <p class="mt-1 text-xs text-gray-500 line-clamp-2">
+                        在这里实现你的音乐梦想，创造无限可能
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Tailwind CSS build output
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build files
+build/
+out/
+
+# Cache directories
+.cache/
+.npm/
+.temp/
+
+# System files
+Thumbs.db 
